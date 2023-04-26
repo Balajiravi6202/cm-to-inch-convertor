@@ -1,0 +1,80 @@
+*body{
+   
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+@media screen and (min-width: 80rem) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
+
+#container{
+   
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    padding: 10%;
+    margin: 10%;
+    background-color: rgb(230, 226, 235);
+    border-radius: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.44);
+    
+    
+}
+.inputtype{
+    position: absolute;
+    background-color: rgb(167, 159, 159);
+    width: 25em;
+    height: 2em;
+    color: brown;
+}
+   
+
+#container .headname{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    position: relative;
+    bottom: 60px;
+    left: 5px;
+    
+    
+}
+
+button{
+    
+    position: absolute;
+    background-color: brown;
+    width: 10em;
+    height: 3em;
+    bottom: 40px;
+    border-radius: 15px;
+    
+    
+}
+
+ .result-val{
+    position: absolute;
+    color: rgb(2, 85, 44);
+    bottom: 50px;
+    font-size: 30px;
+    
+}
+
+.footer{
+    content:"\00a9 me";
+    background-color: #dadfdf;
+    color: blue;
+    text-align: center;
+    height: 30px;
+
+   
+   
+
+}
